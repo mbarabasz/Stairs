@@ -1,0 +1,44 @@
+{
+    "author": "Whipsoft",
+    "dependencies": {
+        "pebble-clay": "^1.0.3"
+    },
+    "keywords": [],
+    "name": "stairs",
+    "pebble": {
+        "capabilities": [
+            "configurable"
+        ],
+        "displayName": "Stairs",
+        "enableMultiJS": true,
+        "messageKeys": [
+            "Username"
+        ],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/action_icon_plus.png",
+                    "name": "IMAGE_ACTION_ICON_PLUS",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/action_icon_minus.png",
+                    "name": "IMAGE_ACTION_ICON_MINUS",
+                    "type": "bitmap"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt",
+            "chalk"
+        ],
+        "uuid": "703b16db-2e94-4b39-83ea-3f206a254235",
+        "watchapp": {
+            "watchface": false
+        }
+    },
+    "version": "2.0.0"
+}
